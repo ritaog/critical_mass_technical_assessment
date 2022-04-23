@@ -12,6 +12,11 @@
     -building reusable frontend components
     -integrating the Stripe API as a payment gateway, and using webhooks to retrieve data from Stripe.
 
+A market-place application for independent creators to market their wares on Instagram by posting their store-front link from the PolyPay app to their Instagram page, in order to redirect their followers back to their store on the app. Vendors can also schedule posts to Instagram, as well as manage their Instagram accounts within the app.
+My contributions include:
+-building reusable frontend components
+-integrating the Stripe API as a payment gateway, and using webhooks to retrieve data from Stripe.
+
 Hosted here:
 [PolyPay App](https://polypay.herokuapp.com/ "PolyPay App")
 
