@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+  background-color: #000;
+}
+
+.sub-title {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+#section-container {
+  max-width: 70rem;
+  min-height: 100vh;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 3rem;
+}
+.title {
+  font-size: 5rem;
+  margin: 2rem 0rem;
+  text-align: center;
+  color: #fff;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+#btn {
+  color: #007fff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 1.2rem;
+  border: 2px solid #007fff;
+  background: none;
+  cursor: pointer;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  padding-top: 1.5rem;
+  transition: max-height 1.2s ease;
+}
+
+.content p {
+  line-height: 1.6;
+  font-size: 2rem;
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #000 3px solid;
+  padding-top: 0.4rem;
+  padding-bottom: 1.4rem;
+  cursor: pointer;
+}
+
+.sub-heading:hover {
+  color: #333;
+}
+
+.article.active .content {
+  max-height: 80vh;
+}
+
+svg {
+  height: 4rem;
+  width: 4rem;
+  align-self: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.article.active svg {
+  transform: rotate(180deg);
+}
